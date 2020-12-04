@@ -49,19 +49,19 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 
 - Result csv file: [WeatherPy_Databas.csv](/Weather_Database/WeatherPy_Database.csv)
 
-- **Conclusion: There are 56 cities recorded rainfall, and 28 cities snowing.**
+- **Conclusion: 
+ * We retrived the Latitude and longitude, Maximum temperature, Percent humidity, Percent cloudiness, Wind speed for 2000 random latitudes and longitudes. 
+ * There are 684 independent nearest cities retrieved.**
 
-**2. Have Customers Narrow Their Travel Searches Based on Temperature and Precipitation.**
+**2. Customer Travel Destinations Map**
+ * Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
 
 - Jupyter Notebook: [Vacation_Search.ipynb](/Vacation_Search.ipynb)
 
-- Result csv file: [WeatherPy_vacation.csv](/data/weatherPy_vacation.csv)
+- Result csv file: [WeatherPy_vacation.csv](/Weather_Database/WeatherPy_vacation.csv)
 
-- Result dataframe screenshot: [Hotel_DataFrame.png](/filtered_Hotel_DataFrame.PNG)
+- Google marker_layer map with pop-up box marker ![WeatherPy_vacation_map.png.png](/Weather_Database/WeatherPy_vacation_map.png)
 
-- Google marker_layer map ![WeatherPy_vacation_map.png.png](/image/WeatherPy_vacation_map.png.png)
-
-- Google pop-up box marker_layer map ![vacation_pop-up_Map.PNG](/image/vacation_pop-up_Map.PNG)
 
 **3. Create a Travel Itinerary with a Corresponding Map.**
 
