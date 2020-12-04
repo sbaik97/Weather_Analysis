@@ -42,11 +42,12 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 
 ## Process
 
-**1. Get the Weather Description and Amount of Precipitation for Each City.** 
+**1. Retrieve Weather Data for Each City.** 
+ * Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data you gathered in this module, use your API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
 
 - Jupyter Notebook: [Weather_Database.ipynb](/Weather_Database.ipynb)
 
-- Result csv file: [WeatherPy_challenge.csv](/data/WeatherPy_challenge.csv)
+- Result csv file: [WeatherPy_Databas.csv](/Weather_Database/WeatherPy_Database.csv)
 
 - **Conclusion: There are 56 cities recorded rainfall, and 28 cities snowing.**
 
