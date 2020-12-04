@@ -50,8 +50,8 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 - Result csv file: [WeatherPy_Databas.csv](/Weather_Database/WeatherPy_Database.csv)
 
 - **Conclusion I:** 
- * We retrived the Latitude and longitude, Maximum temperature, Percent humidity, Percent cloudiness, Wind speed, and Weather description for 2000 random latitudes and longitudes. 
- * There are 684 independent nearest cities retrieved.**
+ * We retrived the Latitude and longitude, Maximum temperature, Percent humidity, Percent cloudiness, Wind speed, and Weather description for 2000 random latitudes and longitudes [Weather_Database.ipynb](/Weather_Database.ipynb). 
+ * There are 684 independent nearest cities retrieved [WeatherPy_Databas.csv](/Weather_Database/WeatherPy_Database.csv).
 
 ### 2. Customer Travel Destinations Map
  * Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
@@ -63,8 +63,8 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 - Google marker_layer map with pop-up box marker ![WeatherPy_vacation_map.png.png](/Weather_Database/WeatherPy_vacation_map.png)
 
 - **Conclusion II:** 
- * The hotel name is retrieved and added to the DataFrame, and the rows that don’t have a hotel name are dropped and exported as a CSV file.
- * A marker layer map with pop-up markers for the cities in the vacation DataFrame is created with the following information: City Name, Country code, Current weather description with the maximum temperature.
+ * The hotel name is retrieved and added to the DataFrame, and the rows that don’t have a hotel name are dropped and exported as a CSV file [WeatherPy_vacation.csv](/Weather_Database/WeatherPy_vacation.csv).
+ * A marker layer map with pop-up markers for the cities in the vacation DataFrame is created with the following information: City Name, Country code, Current weather description with the maximum temperature [WeatherPy_vacation_map.png.png](/Weather_Database/WeatherPy_vacation_map.png).
  
  
 ### 3. Create a Travel Itinerary with a Corresponding Map
@@ -81,7 +81,7 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 
 
 - **Conclusion III:** 
-  * Four DataFrames, vacation_start and end and three waypoints, are created for each city on the itinerary.
+  * Four DataFrames, vacation_start and end and three waypoints, are created for each city on the itinerary [Vacation_Itinerary.ipynb](/Vacation_Itinerary.ipynb).
   * The latitude and longitude pairs for each of the four cities are retrieved and a directions layer map between the cities and the travel map is
 created and uploaded as WeatherPy_travel_map.png [WeatherPy_travel_map.PNG](/Vacation_Search/WeatherPy_travel_map.png).
   * A marker layer map with a pop-up marker for the cities on the itinerary is created, and it is uploaded as WeatherPy_travel_map_markers.png [WeatherPy_travel_map_markers.PNG](/Vacation_Search/WeatherPy_travel_map_markers.png) with the following information: Hotel name, City, Country, Current weather description with the maximum temperature. 
