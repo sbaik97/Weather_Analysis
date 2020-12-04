@@ -62,23 +62,26 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 
 - Google marker_layer map with pop-up box marker ![WeatherPy_vacation_map.png.png](/Weather_Database/WeatherPy_vacation_map.png)
 
-- **Conclusion I:** 
+- **Conclusion II:** 
  * The hotel name is retrieved and added to the DataFrame, and the rows that don’t have a hotel name are dropped and exported as a CSV file.
  * A marker layer map with pop-up markers for the cities in the vacation DataFrame is created with the following information: City Name, Country code, Current weather description with the maximum temperature.
  
  
 ### 3. Create a Travel Itinerary with a Corresponding Map
 
+ * Use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, create a marker layer map with a pop-up marker for each city on the itinerary.
+
 - Jupyter Notebook: [Vacation_Itinerary.ipynb](/Vacation_Itinerary.ipynb)
 
 - The route between four cities from the customer’s possible travel destinations:
-![WeatherPy_travel_map.PNG](/Vacation_Search/WeatherPy_travel_map.pngG)
+![WeatherPy_travel_map.PNG](/Vacation_Search/WeatherPy_travel_map.png)
 
 - Map with pop-up markers for the four cities:
 ![WeatherPy_travel_map_markers.PNG](/Vacation_Search/WeatherPy_travel_map_markers.png)
 
 
-- **Conclusion I:** 
-  * The hotel name is retrieved and added to the DataFrame, and the rows that don’t have a hotel name are dropped and exported as a CSV file.
-  * A marker layer map with pop-up markers for the cities in the vacation DataFrame is created with the following information: City Name, Country code, Current weather description with the maximum temperature.
-
+- **Conclusion III:** 
+  * Four DataFrames, vacation_start and end and three waypoints, are created for each city on the itinerary.
+  * The latitude and longitude pairs for each of the four cities are retrieved and a directions layer map between the cities and the travel map is
+created and uploaded as WeatherPy_travel_map.png [WeatherPy_travel_map.PNG](/Vacation_Search/WeatherPy_travel_map.png).
+  * A marker layer map with a pop-up marker for the cities on the itinerary is created, and it is uploaded as WeatherPy_travel_map_markers.png [WeatherPy_travel_map_markers.PNG](/Vacation_Search/WeatherPy_travel_map_markers.png) with the following information: Hotel name, City, Country, Current weather description with the maximum temperature. 
