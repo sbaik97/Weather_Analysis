@@ -42,18 +42,18 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 
 ## Process
 
-**1. Retrieve Weather Data for Each City.** 
+### 1. Retrieve Weather Data for Each City
  * Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data you gathered in this module, use your API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
 
 - Jupyter Notebook: [Weather_Database.ipynb](/Weather_Database.ipynb)
 
 - Result csv file: [WeatherPy_Databas.csv](/Weather_Database/WeatherPy_Database.csv)
 
-- **Conclusion: 
- * We retrived the Latitude and longitude, Maximum temperature, Percent humidity, Percent cloudiness, Wind speed for 2000 random latitudes and longitudes. 
+- **Conclusion I:** 
+ * We retrived the Latitude and longitude, Maximum temperature, Percent humidity, Percent cloudiness, Wind speed, and Weather description for 2000 random latitudes and longitudes. 
  * There are 684 independent nearest cities retrieved.**
 
-**2. Customer Travel Destinations Map**
+### 2. Customer Travel Destinations Map
  * Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
 
 - Jupyter Notebook: [Vacation_Search.ipynb](/Vacation_Search.ipynb)
@@ -62,18 +62,23 @@ Add the amount of rainfall or snowfall within the last three hours so that custo
 
 - Google marker_layer map with pop-up box marker ![WeatherPy_vacation_map.png.png](/Weather_Database/WeatherPy_vacation_map.png)
 
-
-**3. Create a Travel Itinerary with a Corresponding Map.**
+- **Conclusion I:** 
+ * The hotel name is retrieved and added to the DataFrame, and the rows that don’t have a hotel name are dropped and exported as a CSV file.
+ * A marker layer map with pop-up markers for the cities in the vacation DataFrame is created with the following information: City Name, Country code, Current weather description with the maximum temperature.
+ 
+ 
+### 3. Create a Travel Itinerary with a Corresponding Map
 
 - Jupyter Notebook: [Vacation_Itinerary.ipynb](/Vacation_Itinerary.ipynb)
 
 - The route between four cities from the customer’s possible travel destinations:
-![WeatherPy_travel_map.PNG](/image/WeatherPy_travel_map.PNG)
+![WeatherPy_travel_map.PNG](/Vacation_Search/WeatherPy_travel_map.pngG)
 
 - Map with pop-up markers for the four cities:
-![WeatherPy_travel_map_markers.PNG](/image/WeatherPy_travel_map_markers.PNG)
+![WeatherPy_travel_map_markers.PNG](/Vacation_Search/WeatherPy_travel_map_markers.png)
 
 
+- **Conclusion I:** 
+  * The hotel name is retrieved and added to the DataFrame, and the rows that don’t have a hotel name are dropped and exported as a CSV file.
+  * A marker layer map with pop-up markers for the cities in the vacation DataFrame is created with the following information: City Name, Country code, Current weather description with the maximum temperature.
 
-## Conclusion
-1. 
